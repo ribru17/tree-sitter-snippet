@@ -13,7 +13,7 @@
 function createEscapedText(extraEscapeChars) {
   return (/** @type {any} */ $) =>
     alias(
-      prec.left(repeat1(
+      prec.right(repeat1(
         choice(
           alias(
             new RegExp(`[^\\\\${extraEscapeChars.join('')}]+`),

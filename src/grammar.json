@@ -602,7 +602,7 @@
     "_text": {
       "type": "ALIAS",
       "content": {
-        "type": "PREC_LEFT",
+        "type": "PREC_RIGHT",
         "value": 0,
         "content": {
           "type": "REPEAT1",
@@ -650,7 +650,7 @@
     "_choice_text": {
       "type": "ALIAS",
       "content": {
-        "type": "PREC_LEFT",
+        "type": "PREC_RIGHT",
         "value": 0,
         "content": {
           "type": "REPEAT1",
@@ -698,7 +698,7 @@
     "_format_text": {
       "type": "ALIAS",
       "content": {
-        "type": "PREC_LEFT",
+        "type": "PREC_RIGHT",
         "value": 0,
         "content": {
           "type": "REPEAT1",
@@ -750,7 +750,7 @@
     "_if": {
       "type": "ALIAS",
       "content": {
-        "type": "PREC_LEFT",
+        "type": "PREC_RIGHT",
         "value": 0,
         "content": {
           "type": "REPEAT1",
