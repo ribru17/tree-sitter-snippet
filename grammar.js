@@ -53,7 +53,7 @@ module.exports = grammar({
         '|',
         $._choice_text,
         repeat(seq(',', $._choice_text)),
-        '|}',
+        seq('|', token.immediate('}')),
       ),
     variable: ($) =>
       choice(
